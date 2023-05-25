@@ -1,0 +1,14 @@
+**/*.svg
+/dist
+.DS_Store
+.eslintignore
+.editorconfig
+.gitignore
+.prettierignore
+LICENSE
+.eslintcache
+*.lock
+.history
+CNAME
+/build
+/public
