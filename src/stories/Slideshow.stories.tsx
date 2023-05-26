@@ -1,9 +1,8 @@
 // Slideshow.stories.ts|tsx
 
-import type {ComponentStory, Meta, StoryObj} from '@storybook/react'
+import type {Meta, StoryObj} from '@storybook/react'
 
 import SlideShow from '../index'
-import { BaseProps } from '../types';
 import React, {useEffect, useRef} from 'react'
 
 const meta: Meta<typeof SlideShow> = {
@@ -73,13 +72,7 @@ export const Pages: Story = {
                     {images.map(i => <img src={i} />)}
                 </SlideShow>
                 <div style={{textAlign: "center"}}>
-                    <a href="javascript:void(0)" onClick={() => slideRef.current.goTo(0)}>1</a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="javascript:void(0)" onClick={() => slideRef.current.goTo(1)}>2</a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="javascript:void(0)" onClick={() => slideRef.current.goTo(2)}>3</a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="javascript:void(0)" onClick={() => slideRef.current.goTo(3)}>4</a>
+                    {images.map((_, i) => (<><a href="javascript:void(0)" onClick={() => slideRef.current.goTo(i)}>{i+1}</a>&nbsp;&nbsp;&nbsp;</>))}
                 </div>
             </>
         )

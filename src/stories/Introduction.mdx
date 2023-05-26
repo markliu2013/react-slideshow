@@ -1,5 +1,4 @@
-import { Meta, Canvas, Story } from '@storybook/blocks';
-import * as SlideshowStories from './Slideshow.stories';
+import { Meta } from '@storybook/blocks';
 
 <Meta title="Introduction" />
 
@@ -7,32 +6,3 @@ import * as SlideshowStories from './Slideshow.stories';
 
 React slideshow is a simple react component supporting slide, fade. It is designed by css animation.
 
-## Installation
-```
-# npm
-npm install react-slideshow-lib
-
-# yarn
-yarn add react-slideshow-lib
-```
-
-Here's a basic example
-```tsx
-import React from 'react';
-import SlideShow from 'react-slideshow-lib';
-
-const Example = () => {
-
-    return (
-        <SlideShow>
-            <img src="http://local.com/1.jpg" />
-            <img src="http://local.com/2.jpg" />
-            <img src="http://local.com/3.jpg" />
-            <img src="http://local.com/4.jpg" />
-        </SlideShow>
-    );
-};
-
-export default Example;
-```
-<Canvas of={SlideshowStories.Default} />
