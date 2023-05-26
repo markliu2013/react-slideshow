@@ -11,6 +11,17 @@ npm install react-slideshow-lib
 yarn add react-slideshow-lib
 ```
 
+### Options
+1. fx - The name of the slideshow transition to use. The following transition names are available by default and more can be added with plugins: fade and scrollHorz.
+2. duration - The time between slide transitions in milliseconds.
+3. transitionDuration - how long the transition takes.
+4. delay - The number of milliseconds to add onto, or substract from, the time before the first slide transition occurs.
+5. defaultIndex - Specifies the first slide to display
+6. loop - Specifies if the transition should loop infinitely
+7. pauseOnHover - whether the transition effect pause when the mouse hovers the slider
+8. easing - The timing transition function to use. You can use one of linear, ease.
+
+
 Here's a basic example
 ```tsx
 import React from 'react';
