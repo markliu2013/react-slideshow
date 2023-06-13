@@ -1,6 +1,6 @@
 # React-Slideshow
 
-React slideshow component supporting slide, fade.
+It is the most simple solution for React slideshow component supporting slide, fade.
 
 ## Installation
 ```
