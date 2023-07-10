@@ -1,0 +1,24 @@
+https://dev.to/alexeagleson/how-to-create-and-publish-a-react-component-library-2oe
+https://medium.com/hackernoon/creating-a-library-of-react-components-using-create-react-app-without-ejecting-d182df690c6b
+https://betterprogramming.pub/how-to-create-and-publish-react-typescript-npm-package-with-demo-and-automated-build-80c40ec28aca
+
+
+allow-wrap 是否循环播放
+delay 延迟多久
+easing 动画类型
+fx （fade, fadeout, none, and scrollHorz.）
+next next-event
+prev prev-event
+pager，pager-active-class，pager-event，pager-event-bubble，pager-template
+pause-on-hover，paused
+random
+reverse	
+speed
+starting-slide
+timeout
+
+
+slide-css
+
+
+ https://github.com/ryanflorence/react-conf-2018.git
